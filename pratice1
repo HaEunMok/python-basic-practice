@@ -1,0 +1,73 @@
+1) print
+ print("")
+ 
+ - if you want to print chracter ', then you can use "" (reverse " -> ')
+  print('""'), output: ""
+  print("''"), output :''
+ 
+ - if you want to print ", ', /, /n, then you can use \ in front of those
+  print("\"!@#$%^&*()\'")
+  print("\"C:\Download\\\'hello\'.py\"")
+  print("print(\"Hello\\nWorld\")")
+  
+  - whitspace
+  a=1,b=2,c=3
+  
+  print(a,b,c) 1 2 3
+  print(a+b+c) 123
+  
+  print(a)
+  print(b) 
+  1
+  2
+  
+  2) input()
+  user can personally enter value user want to assigin in variable 
+  
+  -input.split()
+  
+  a,b,c =input(1 2 3).split()
+  print(a,b,c) 1 2 3
+  
+  a,b,c =input(1 2 3).split(".")
+  print(a,b,c) 1 2 3
+  
+   a,c=input().split("-")
+  print(a+c)
+ 
+ 
+  -sep
+ print(a,b,c,sep="-")
+ a-b-c
+ 
+ y,m,d=input().split(".")
+print(d, m, y,sep="-")
+
+ 
+ 
+typs
+
+int()
+float()
+string()
+character()
+
+
+index
+[]
+[0:-1] 
+[-2]
+[1:3] 23
+  
+  
+  
+  s = input()
+print(s[0:2],s[2:4],s[4:7])
+12 34 56
+ 
+연산
+a=1, b=0
+int(a)+int(b)
+a+b
+=1+0=1
+
